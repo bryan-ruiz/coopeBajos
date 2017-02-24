@@ -1,0 +1,30 @@
+
+.pad-10{
+    padding: 5em 7em 3em 7em;
+}
+.border-4{
+    border-top-width: 6px;
+    border-top-color:  #388E3C;
+    border-top-style: solid ;
+
+}
+
+.images-galeri{
+    width: 200px;
+    height: 200px;
+    padding: 1.5%;
+    float: left;
+    box-shadow: 0px 0px 10px #13c5ff;
+}
+
+.textAlign {
+	text-align: center
+}
+
+.wholeTextAlign {
+	text-align: justify;
+}
+
+.pad {
+	padding-left: 7%
+}

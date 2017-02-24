@@ -1,0 +1,71 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+
+.principalContainer{
+    margin-top: 32em;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 80%;
+    border-radius: 1em ;
+
+    height: auto;
+}
+.title-head{
+    padding-top: 4em;
+    padding-bottom:4em ;
+}
+.title-section{
+    padding-top: 1.5em;
+    padding-bottom:1.5em ;
+}
+.sub-title-section{
+    padding-top: 1em;
+    padding-bottom:1em ;
+}
+
+@media only screen and (min-width: 601px) {
+    .principalContainer {
+        width: 85%;
+    }
+}
+
+@media only screen and (min-width: 993px) {
+    .principalContainer {
+        width: 70%;
+    }
+}
+
+
+.padd-top{
+    padding-top: 5%;
+
+
+}
+
+.principalContainer .row {
+    margin-left: -0.75rem;
+    margin-right: -0.75rem;
+}
+#img-container{
+    margin: 0 auto;
+    padding: 3%;
+    width: 80%;
+    height: 20em;
+}
+.img-content{
+    margin: 0 auto;
+    padding: 3%;
+    width: 80%;
+    height: 20em;
+}
+.content{
+
+    position: absolute;
+    width: 100%;
+}
